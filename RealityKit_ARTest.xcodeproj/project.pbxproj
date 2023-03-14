@@ -12,6 +12,8 @@
 		99001B7329C0A70300B13E35 /* Experience.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 99001B7229C0A70300B13E35 /* Experience.rcproject */; };
 		99001B7529C0A70400B13E35 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99001B7429C0A70400B13E35 /* Assets.xcassets */; };
 		99001B7829C0A70400B13E35 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99001B7729C0A70400B13E35 /* Preview Assets.xcassets */; };
+		99001B7F29C0A7CA00B13E35 /* ARModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99001B7E29C0A7CA00B13E35 /* ARModel.swift */; };
+		99001B8129C0A82F00B13E35 /* ARViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99001B8029C0A82F00B13E35 /* ARViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +23,8 @@
 		99001B7229C0A70300B13E35 /* Experience.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = Experience.rcproject; sourceTree = "<group>"; };
 		99001B7429C0A70400B13E35 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		99001B7729C0A70400B13E35 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		99001B7E29C0A7CA00B13E35 /* ARModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARModel.swift; sourceTree = "<group>"; };
+		99001B8029C0A82F00B13E35 /* ARViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +59,8 @@
 			children = (
 				99001B6E29C0A70300B13E35 /* AppDelegate.swift */,
 				99001B7029C0A70300B13E35 /* ContentView.swift */,
+				99001B8029C0A82F00B13E35 /* ARViewModel.swift */,
+				99001B7E29C0A7CA00B13E35 /* ARModel.swift */,
 				99001B7229C0A70300B13E35 /* Experience.rcproject */,
 				99001B7429C0A70400B13E35 /* Assets.xcassets */,
 				99001B7629C0A70400B13E35 /* Preview Content */,
@@ -140,6 +146,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				99001B8129C0A82F00B13E35 /* ARViewModel.swift in Sources */,
+				99001B7F29C0A7CA00B13E35 /* ARModel.swift in Sources */,
 				99001B7129C0A70300B13E35 /* ContentView.swift in Sources */,
 				99001B6F29C0A70300B13E35 /* AppDelegate.swift in Sources */,
 				99001B7329C0A70300B13E35 /* Experience.rcproject in Sources */,
